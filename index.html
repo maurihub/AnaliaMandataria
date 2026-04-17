@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anita - Mandataria del Automotor Profesional Matriculada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        .bg-brand-blue { background-color: #1e4b8a; } /* Azul del flyer */
+        .text-brand-blue { color: #1e4b8a; }
+        .bg-brand-yellow { background-color: #f6b319; } /* Amarillo de acento */
+        .step.hidden { display: none; }
+        
+        /* Estilos para el botón flotante */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .whatsapp-float:hover {
+            box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-800 antialiased">
+
+    <header class="bg-brand-blue text-white py-12 px-6 text-center shadow-lg relative border-b-4 border-brand-yellow">
+        <div class="relative inline-block mb-4">
+            <img src="foto-anita.jpg" alt="Anita Mandataria" class="w-28 h-28 rounded-full mx-auto border-4 border-brand-yellow shadow-2xl object-cover" onerror="this.src='https://via.placeholder.com/150?text=Anita'">
+            <span class="absolute bottom-1 right-1 bg-green-500 w-6 h-6 border-4 border-brand-blue rounded-full" title="Disponible online"></span>
+        </div>
+        
+        <h1 class="text-4xl font-bold uppercase mb-1 tracking-tighter">Anita</h1>
+        <div class="inline-block bg-brand-yellow text-blue-900 px-4 py-1 rounded-full font-bold text-xs mb-3 shadow">
+            MANDATARIA DEL AUTOMOTOR MAT. DNRPA
+        </div>
+        <p class="text-sm opacity-90 max-w-xs mx-auto italic font-light">"Gestión integral y transparente para que disfrutes tu vehículo sin preocupaciones burocráticas."</p>
+    </header>
+
+    <main class="max-w-4xl mx-auto p-6 md:p-12 space-y-16">
+        
+        <section class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="p-5 bg-white rounded-2xl shadow-sm border border-gray-100 text-center hover:border-brand-yellow hover:shadow-md transition-all">
+                <span class="block text-4xl mb-2">??</span>
+                <span class="text-xs font-bold text-brand-blue uppercase tracking-wider">Transferencias</span>
+            </div>
+            <div class="p-5 bg-white rounded-2xl shadow-sm border border-gray-100 text-center hover:border-brand-yellow hover:shadow-md transition-all">
+                <span class="block text-4xl mb-2">??</span>
+                <span class="text-xs font-bold text-brand-blue uppercase tracking-wider">Informes Dominio</span>
+            </div>
+            <div class="p-5 bg-white rounded-2xl shadow-sm border border-gray-100 text-center hover:border-brand-yellow hover:shadow-md transition-all">
+                <span class="block text-4xl mb-2">??</span>
+                <span class="text-xs font-bold text-brand-blue uppercase tracking-wider">Denuncias Venta</span>
+            </div>
+            <div class="p-5 bg-white rounded-2xl shadow-sm border border-gray-100 text-center hover:border-brand-yellow hover:shadow-md transition-all">
+                <span class="block text-4xl mb-2">??</span>
+                <span class="text-xs font-bold text-brand-blue uppercase tracking-wider">Cédulas A/V</span>
+            </div>
+            <div class="p-5 bg-white rounded-2xl shadow-sm border border-gray-100 text-center hover:border-brand-yellow hover:shadow-md transition-all">
+                <span class="block text-4xl mb-2">??</span>
+                <span class="text-xs font-bold text-brand-blue uppercase tracking-wider">Altas/Bajas</span>
+            </div>
+            <div class="p-5 bg-white rounded-2xl shadow-sm border border-gray-100 text-center hover:border-brand-yellow hover:shadow-md transition-all">
+                <span class="block text-4xl mb-2">??</span>
+                <span class="text-xs font-bold text-brand-blue uppercase tracking-wider">Trámites DNRPA</span>
+            </div>
+        </section>
+
+        <section class="bg-red-600 rounded-3xl p-10 text-white shadow-2xl relative overflow-hidden border-4 border-red-700">
+            <div class="relative z-10 space-y-6">
+                <div class="flex items-center gap-4">
+                    <span class="text-5xl">??</span>
+                    <h2 class="text-4xl font-black italic tracking-tighter uppercase">¡CHAU MULTAS!</h2>
+                </div>
+                <p class="text-base font-semibold bg-red-700/50 p-4 rounded-xl border border-red-500/50">
+                    ¿Sabías que muchas multas prescriben a los 2 o 5 años? Estudiamos tu caso y realizamos los descargos técnicos que más te convengan.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3 text-sm font-medium">
+                    <div class="flex items-center gap-2">? Nulidad técnica y Prescripción</div>
+                    <div class="flex items-center gap-2">? Máxima reducción en pago voluntario</div>
+                    <div class="flex items-center gap-2">? Resultados en menos de 48hs</div>
+                    <div class="flex items-center gap-2">? Vehículo liberado para trámites</div>
